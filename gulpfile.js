@@ -9,14 +9,7 @@ var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
 
 // local vars
-var path = 'app/view1/*.js'
-
-// gulp.task('default', function() {
-//     // place code for your default task here
-//     return gulp.src('app/view1/view1.js')
-//         .pipe(ngAnnotate())
-//         .pipe(gulp.dest('dist'));
-// });
+var path = 'app/view1/*.js';
 
 // Lint task
 gulp.task('lint', function () {
